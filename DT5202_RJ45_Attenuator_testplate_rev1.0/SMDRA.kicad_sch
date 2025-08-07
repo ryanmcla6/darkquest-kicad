@@ -1,0 +1,355 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aac3d493-192a-4b3a-9b4b-ae4cc5495c73")
+	(paper "A5")
+	(title_block
+		(title "SMD Resistor Attenuator 10 dB Switched")
+		(date "2025-06-28")
+		(rev "1")
+		(company "DarkQuest")
+		(comment 1 "Nathan Raplee")
+	)
+	(lib_symbols)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 129.54 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f27050f-0eba-40dc-a63d-3134fae9f5f5")
+	)
+	(hierarchical_label "OUT0"
+		(shape output)
+		(at 104.14 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d5eaa9-096b-4b4e-b72f-28035e9a47f3")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 120.65 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d962a20-8ed7-4cbd-99c0-818d9da97b88")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 111.76 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4145c1fe-1a3e-48e1-8b71-86e13d66cb54")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 104.14 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "602b4143-cd95-4754-8131-56ee8d566e2b")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 129.54 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b60720c0-b1d8-4bf9-adb2-f7e31c2e8bd1")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 120.65 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8f90b57-1eef-4bb6-8536-d18557e22f94")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 111.76 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef8984d9-043a-4ecc-aed5-bce7f2d70904")
+	)
+	(sheet
+		(at 128.27 67.31)
+		(size 3.81 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cadcfe2-ae7d-41ed-87c9-08ef47b17a85")
+		(property "Sheetname" "Resistor set3"
+			(at 127.5584 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 132.6646 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 129.54 67.31 90)
+			(uuid "da1bcec2-87db-4845-8765-a3f4e5ae47ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 129.54 80.01 270)
+			(uuid "c9b32efb-8a48-4283-bbed-c896fdb17fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 67.31)
+		(size 3.81 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a9cb9d5-d6dd-4465-b600-ac38ea213a2e")
+		(property "Sheetname" "Resistor set2"
+			(at 118.6684 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 123.7746 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 120.65 67.31 90)
+			(uuid "0b334584-9e33-4d65-9854-6c1bb8e2de25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 120.65 80.01 270)
+			(uuid "19a55864-a6ef-4596-9523-606cfd652593")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 67.31)
+		(size 3.81 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ce2f751-0fd8-4407-b25c-8db24fc0d8e1")
+		(property "Sheetname" "Resistor set1"
+			(at 109.7784 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 114.8846 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 111.76 67.31 90)
+			(uuid "b208fabb-0afb-44fb-8754-27237bd74e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 111.76 80.01 270)
+			(uuid "504187a5-5300-4472-a312-609789c9d447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.235 67.31)
+		(size 3.81 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7882d55-d59d-49b8-b0d8-511d22005fac")
+		(property "Sheetname" "Resistor set"
+			(at 101.5234 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 106.6296 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 104.14 67.31 90)
+			(uuid "28075e5b-14f4-422e-9ca4-05a6c88320dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 104.14 80.01 270)
+			(uuid "0399b0b5-fc2b-498c-90bf-f0534a6f58e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744"
+					(page "8")
+				)
+			)
+		)
+	)
+)

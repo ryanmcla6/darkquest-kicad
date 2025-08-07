@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HSEC8-170-01-X-DV-A")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/HSEC8_170_01_S_DV_A_K/HSEC8-170-01-X-DV-A.kicad_sym")(options "")(descr ""))
+  (lib (name "Switch_DPDT_flush")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/Switch/Switch_DPDT_flush.kicad_sym")(options "")(descr ""))
+)

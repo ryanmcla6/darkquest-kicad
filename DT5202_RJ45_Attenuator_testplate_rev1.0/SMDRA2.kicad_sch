@@ -1,0 +1,1244 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dfdd9e08-2906-4f3f-a56a-4ea45adf32c3")
+	(paper "A5")
+	(title_block
+		(title "SMD Resistor Attenuator 10 dB switched")
+		(date "2025-06-28")
+		(rev "1")
+		(company "DarkQuest")
+		(comment 1 "Nathan Raplee")
+	)
+	(lib_symbols
+		(symbol "nidec_dpdt:Nidec_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at -1.27 -8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SW_Push_DPDT"
+				(at 1.27 -8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "footprints:Nidec_DPDT_CS422YTA"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Nidec_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Nidec_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.54 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.54 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Nidec_DPDT_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e893297-1adc-49b3-b7a1-ef0504cf57f3")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3652c536-b1a9-456b-83da-faa0bf10df96")
+	)
+	(wire
+		(pts
+			(xy 125.73 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421858fc-1478-40e2-a347-e6978deed960")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50461002-e784-4c7c-8566-a1a9f7df9a76")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571e9bfc-d814-4af8-b3d5-04810bbe2b99")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 59.69 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780d4428-ed1f-46f8-af17-23000c9fcd73")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887d8970-caf7-4b08-840c-17fe44168d68")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0315645-e229-4432-8d60-61d30223f187")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50b98b7-aea6-4d4c-a03e-6482ae1ad124")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fc834a-2e34-40bc-b091-0f3a7e7ae7d7")
+	)
+	(wire
+		(pts
+			(xy 64.77 27.94) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b74585-9369-4e19-b6ee-c2162c931e69")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a1392a-e302-49c0-b794-3dd2467cbdcf")
+	)
+	(wire
+		(pts
+			(xy 114.3 22.86) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4709f35-91ae-4353-8b56-54cb0d79aa1a")
+	)
+	(wire
+		(pts
+			(xy 64.77 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04e2266-b0a0-4b40-a658-5e352c4f1709")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3aa842d-6098-487c-92a6-9b49bd269917")
+	)
+	(wire
+		(pts
+			(xy 125.73 27.94) (xy 125.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59d16a3-0099-4ccc-b56d-fb0ad9dcdf28")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63e520a-3943-47ea-b85f-a0293b549899")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 114.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bc0ad9-f317-4b4b-a3aa-d1af1e6de6a8")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 111.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd1c3ac-cc65-4fac-a392-2715dc5cfab6")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe6b133-ca41-4c02-adcf-dddb8e6051e1")
+	)
+	(wire
+		(pts
+			(xy 50.8 22.86) (xy 53.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40fec94-436f-4de1-b2ff-853eef432059")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4756399-fa9c-4f47-9f67-b69361ebe824")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d066b0-ce30-4c0a-9310-a49404b65e93")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a485f7-9cc3-4fcc-8141-c3c8e42f3854")
+	)
+	(hierarchical_label "OUT0"
+		(shape output)
+		(at 40.64 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10db865e-2299-4f03-9b3f-d88d6a1760dc")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 101.6 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2abc6de2-7ff3-4504-9dec-205a66a8a4db")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 114.3 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "446052af-9655-4760-bdbd-3a02b8524941")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 46.99 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5daef3da-0c0a-4f13-b937-4c7918e4ed20")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 114.3 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "643d231c-c217-4afc-870b-5b90034e7e08")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 101.6 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b155ce6-7fdf-449a-98d2-ecf12c2fbbb2")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 46.99 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75b6d505-9b1b-442d-b693-b4d2f878995d")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 40.64 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76368085-871e-4ac9-adf9-b324b4e0a481")
+	)
+	(symbol
+		(lib_id "nidec_dpdt:Nidec_DPDT")
+		(at 52.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11378f34-6b97-4988-b9c6-fe30ede322a1")
+		(property "Reference" "SW2"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Nidec_DPDT_CS422YTA"
+			(at 52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c7d71e7-f8f5-408f-a02f-ed391e94b28e")
+		)
+		(pin "5"
+			(uuid "bb1e7ef0-8f87-4c11-b102-07abe6179251")
+		)
+		(pin "3"
+			(uuid "e20dfde2-2fb0-4e29-9887-ea5ad514c2db")
+		)
+		(pin "4"
+			(uuid "86d6a573-efe0-4032-9542-143733014c82")
+		)
+		(pin "1"
+			(uuid "e95d95d0-d8cf-4ec7-998b-102dd8ec9744")
+		)
+		(pin "6"
+			(uuid "8ce97f09-c3f7-4181-a076-56513c56a347")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nidec_dpdt:Nidec_DPDT")
+		(at 106.68 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f41d8b0-cd29-48d6-8528-3df34eccf758")
+		(property "Reference" "SW3"
+			(at 106.68 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Nidec_DPDT_CS422YTA"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6614d1d0-8076-421f-ad0a-08860e087ff7")
+		)
+		(pin "5"
+			(uuid "06f76141-5d5b-4962-86e8-9c5e81fef897")
+		)
+		(pin "3"
+			(uuid "10b69430-527f-4e9a-aedc-08c086577099")
+		)
+		(pin "4"
+			(uuid "4e955140-48d8-470f-9d3f-7843417cd835")
+		)
+		(pin "1"
+			(uuid "e298da6c-79d5-4127-9f36-2572265df7d0")
+		)
+		(pin "6"
+			(uuid "ff7a8bce-9072-4e42-b7cd-aee7e3bb6dbc")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nidec_dpdt:Nidec_DPDT")
+		(at 45.72 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614371d9-c573-40e5-8269-e397fd0a3bae")
+		(property "Reference" "SW1"
+			(at 45.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Nidec_DPDT_CS422YTA"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d451aac-12d9-49d9-bc16-d7f88f8e4dcc")
+		)
+		(pin "5"
+			(uuid "7f14e6b4-d715-4202-bf54-ba749f524bad")
+		)
+		(pin "3"
+			(uuid "a2f67e70-0bae-4f1f-8082-a083e9c51709")
+		)
+		(pin "4"
+			(uuid "f3f86aaf-f036-4e98-8cb3-18028899b90b")
+		)
+		(pin "1"
+			(uuid "eb418b16-0bed-4b2d-9063-eb583e609784")
+		)
+		(pin "6"
+			(uuid "1c5a1348-bbb0-4a11-ae36-71e4f0f40c0f")
+		)
+		(instances
+			(project ""
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nidec_dpdt:Nidec_DPDT")
+		(at 119.38 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe263480-1cad-4ac9-93bb-47399320033f")
+		(property "Reference" "SW4"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Nidec_DPDT_CS422YTA"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ceb47f3a-abbb-4a1b-9f36-6a97882722d9")
+		)
+		(pin "5"
+			(uuid "fd414377-098a-4269-b600-a7c377b2ec6a")
+		)
+		(pin "3"
+			(uuid "c3431549-e81d-4ef3-a290-1f47c77e1483")
+		)
+		(pin "4"
+			(uuid "96acc57c-12d6-4a80-86da-650ab6decdd3")
+		)
+		(pin "1"
+			(uuid "d0ca1ce8-4d38-4d03-86ca-52cc5b784857")
+		)
+		(pin "6"
+			(uuid "1108f614-5bc8-47c9-84dd-0fd8336d00a2")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 71.755)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "222e6a82-3101-4d41-a665-31ab316331e9")
+		(property "Sheetname" "Resistor set3"
+			(at 124.46 71.0434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 124.46 76.1496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 137.16 73.66 0)
+			(uuid "fd67f54b-8120-428e-be86-5484bcef23aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 124.46 73.66 180)
+			(uuid "fc64b226-f5a7-4c2f-8ad3-4da924ab2a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 36.195)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "718c832a-22e4-4bf0-bae0-b5ad715da869")
+		(property "Sheetname" "Resistor set"
+			(at 50.8 35.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 50.8 40.5896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 63.5 38.1 0)
+			(uuid "ba398b87-df34-44ee-a481-abbcbf2e8f21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 50.8 38.1 180)
+			(uuid "8b00f8a1-1f77-478f-8afd-9e453714ffa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 36.195)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91c82872-faf0-4ccd-8f93-c695e1e5359a")
+		(property "Sheetname" "Resistor set1"
+			(at 111.76 35.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 111.76 40.5896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 124.46 38.1 0)
+			(uuid "9857671d-fef6-4437-8b4e-109e9edf8d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 111.76 38.1 180)
+			(uuid "18765e7f-2158-44b7-8ffe-70c447bdb5cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 71.755)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8790c42-6b9d-4427-af93-c5432edc78aa")
+		(property "Sheetname" "Resistor set2"
+			(at 57.15 71.0434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistorset.kicad_sch"
+			(at 57.15 76.1496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN0" input
+			(at 69.85 73.66 0)
+			(uuid "2cdd5f3c-9316-4c4c-ba79-bc399eeeebf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT0" output
+			(at 57.15 73.66 180)
+			(uuid "e403c55b-8e33-42b9-9b70-6dedb5c5ee2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e"
+					(page "14")
+				)
+			)
+		)
+	)
+)

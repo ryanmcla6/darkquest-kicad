@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CS-4-22YB")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/Switch/CS-4-22YB.pretty")(options "")(descr ""))
+  (lib (name "RJJS-88-122-E7V-022")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/RJJS-88-122-E7V-022/RJJS-88-122-E7V-022.pretty")(options "")(descr ""))
+  (lib (name "HSEC8_170_01_S_DV_A_K")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/HSEC8_170_01_S_DV_A_K")(options "")(descr ""))
+)

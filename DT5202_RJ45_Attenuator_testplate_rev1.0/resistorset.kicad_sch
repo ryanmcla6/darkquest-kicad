@@ -1,0 +1,794 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c0726eb6-d62c-4897-a0ca-999ff319dc15")
+	(paper "A4")
+	(title_block
+		(date "2025-06-28")
+		(rev "1")
+		(company "DarkQuest")
+		(comment 1 "Nathan Raplee")
+	)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R1A1"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "25.96"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 161.29 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d5a5f5-c4ab-49d9-9f27-40a0f2a9fa34")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72358c26-b0f7-4183-9d96-1fd5cbdb3bc5")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8792d0-4a26-4de0-9d50-63444f72ee16")
+	)
+	(hierarchical_label "OUT0"
+		(shape output)
+		(at 161.29 101.6 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "986a63c0-a777-4775-a09d-7c43994fb720")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 161.29 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5eaa5ad-a5d1-4817-b302-e13e55e10aac")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ab3e754-9ca9-4792-a678-8820eeaefc03")
+		(property "Reference" "#PWR027"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57529d1d-1e54-4c2a-93aa-1bf267c81063")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/222e6a82-3101-4d41-a665-31ab316331e9"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/718c832a-22e4-4bf0-bae0-b5ad715da869"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/91c82872-faf0-4ccd-8f93-c695e1e5359a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/d8790c42-6b9d-4427-af93-c5432edc78aa"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/4cadcfe2-ae7d-41ed-87c9-08ef47b17a85"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/6a9cb9d5-d6dd-4465-b600-ac38ea213a2e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/9ce2f751-0fd8-4407-b25c-8db24fc0d8e1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/d7882d55-d59d-49b8-b0d8-511d22005fac"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 161.29 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df2b36e9-0455-4037-95b0-e6b72743148c")
+		(property "Reference" "R1A1"
+			(at 164.084 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25.96"
+			(at 166.37 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.512 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05326fca-5146-478e-871e-d48238bdd4db")
+		)
+		(pin "2"
+			(uuid "4ee35911-cbe7-4d88-b2f1-e1efce4881e9")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/222e6a82-3101-4d41-a665-31ab316331e9"
+					(reference "R1A8")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/718c832a-22e4-4bf0-bae0-b5ad715da869"
+					(reference "R1A5")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/91c82872-faf0-4ccd-8f93-c695e1e5359a"
+					(reference "R1A6")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/d8790c42-6b9d-4427-af93-c5432edc78aa"
+					(reference "R1A7")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/4cadcfe2-ae7d-41ed-87c9-08ef47b17a85"
+					(reference "R1A4")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/6a9cb9d5-d6dd-4465-b600-ac38ea213a2e"
+					(reference "R1A3")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/9ce2f751-0fd8-4407-b25c-8db24fc0d8e1"
+					(reference "R1A2")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/d7882d55-d59d-49b8-b0d8-511d22005fac"
+					(reference "R1A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f686817b-cb44-4416-ba3d-9d76b5cf1963")
+		(property "Reference" "R2A1"
+			(at 154.178 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35.14"
+			(at 153.924 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea76378-1a2b-48e1-a911-1e1ab9f75f76")
+		)
+		(pin "2"
+			(uuid "6981a2d8-6f2b-4dab-9483-1cbb5d282048")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/222e6a82-3101-4d41-a665-31ab316331e9"
+					(reference "R2A8")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/718c832a-22e4-4bf0-bae0-b5ad715da869"
+					(reference "R2A5")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/91c82872-faf0-4ccd-8f93-c695e1e5359a"
+					(reference "R2A6")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/d8790c42-6b9d-4427-af93-c5432edc78aa"
+					(reference "R2A7")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/4cadcfe2-ae7d-41ed-87c9-08ef47b17a85"
+					(reference "R2A4")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/6a9cb9d5-d6dd-4465-b600-ac38ea213a2e"
+					(reference "R2A3")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/9ce2f751-0fd8-4407-b25c-8db24fc0d8e1"
+					(reference "R2A2")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/d7882d55-d59d-49b8-b0d8-511d22005fac"
+					(reference "R2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "facae387-eec3-4a29-b6ee-759ae83a991f")
+		(property "Reference" "R1B1"
+			(at 163.83 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25.96"
+			(at 166.116 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.512 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c680385d-d6bc-404c-81f9-fd74fe2061dd")
+		)
+		(pin "2"
+			(uuid "fa0edfed-c46c-446f-847c-a5af6593b17d")
+		)
+		(instances
+			(project "DarkQuest_DT5202_RJ45_Attenuator_testplate"
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/222e6a82-3101-4d41-a665-31ab316331e9"
+					(reference "R1B8")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/718c832a-22e4-4bf0-bae0-b5ad715da869"
+					(reference "R1B5")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/91c82872-faf0-4ccd-8f93-c695e1e5359a"
+					(reference "R1B6")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/1ab276bb-f863-46b1-b677-9e230a063c4e/d8790c42-6b9d-4427-af93-c5432edc78aa"
+					(reference "R1B7")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/4cadcfe2-ae7d-41ed-87c9-08ef47b17a85"
+					(reference "R1B4")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/6a9cb9d5-d6dd-4465-b600-ac38ea213a2e"
+					(reference "R1B3")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/9ce2f751-0fd8-4407-b25c-8db24fc0d8e1"
+					(reference "R1B2")
+					(unit 1)
+				)
+				(path "/07d331fa-d8a9-4e30-ba3c-80adceb3c802/7f84f45c-71a2-4455-b92e-af316ec43744/d7882d55-d59d-49b8-b0d8-511d22005fac"
+					(reference "R1B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
