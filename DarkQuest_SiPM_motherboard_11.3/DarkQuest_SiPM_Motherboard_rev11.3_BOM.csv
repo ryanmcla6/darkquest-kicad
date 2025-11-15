@@ -1,0 +1,4 @@
+Id,Designator,Quanitity,Manufacturer,Manufacturer Product Number,Supplier,Supplier Part Number,Description
+1,J5;J6;J7;J8;J17;J18;J19;J20,8,Mill-Max Manufacturing Corp.,342-10-110-00-591000,DigiKey,ED10064-10-ND,SiPM chip pin header
+2,C4;C3;C1;C2,4,Kemet,C1206C103KFRACTU,DigiKey,399-C1206C103KFRACTUCT-ND,10 nF +/- 10% 1500V (1.5kV) Ceramic Capacitor X7R 1206 (3216 Metric)
+3,J21,1,Würth Elektronik,6.15008E+11,DigiKey,732-615008160421-ND,"Jack Modular Connector 8p8c (RJ45, Ethernet)"

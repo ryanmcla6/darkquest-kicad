@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RJJS-88-122-E7V-022")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/RJJS-88-122-E7V-022.pretty")(options "")(descr ""))
+)
