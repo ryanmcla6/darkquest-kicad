@@ -8,12 +8,12 @@
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 1.0,
       "pads": 1.0,
-      "shapes": 0.699999988079071,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.44999998807907104
+      "zones": 1.0
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,8 +50,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_aaaa8020_020a5575",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_ffffd5f5_dff755df",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -100,22 +100,22 @@
       15
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91,
-      91,
-      91,
-      91,
-      176
+      365,
+      332,
+      207,
+      153,
+      207,
+      207,
+      207,
+      161,
+      207,
+      207,
+      207,
+      207,
+      207,
+      207,
+      207,
+      396
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

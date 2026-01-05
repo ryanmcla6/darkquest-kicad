@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TMUX7612PWR
+#/20356348/1464705/2.50/16/3/Integrated Circuit
+DEF TMUX7612PWR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TMUX7612PWR" 950 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/tmux7612" 950 0 50 H I L CNN
+F4 " Dual supply range: +/-4.5V to +/-25V  Single supply range: 4.5V to 50V  Asymmetric dual supply support (For example: VDD = 37.5V, VSS = -12.5V)  1.8V logic compatible  Precision performance:  Low on-resistance: 1.1 (typical)  Low capacitance: 27pF (typical)  Ultra-low on-resistance flatness: 0.0003 (typical)  High current support: 470mA (maximum)  Low on-leakage current: 3.7pA (typical), 0.3nA (maximum)  Low off-leakage current: 30pA (typical), 0.15nA (maximum)  Ultra-low charge in" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TMUX7612PWR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TMUX7612PWR" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX7612PWR?qs=7%2F6SraaimPQJcAeBoNYdRw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TMUX7612PWR" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tmux7612pwr/texas-instruments?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SEL1 1 0 0 200 R 50 50 0 0 P
+X D1 2 0 -100 200 R 50 50 0 0 P
+X S1 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X S4 6 0 -500 200 R 50 50 0 0 P
+X D4 7 0 -600 200 R 50 50 0 0 P
+X SEL4 8 0 -700 200 R 50 50 0 0 P
+X SEL2 16 1100 0 200 L 50 50 0 0 P
+X D2 15 1100 -100 200 L 50 50 0 0 P
+X S2 14 1100 -200 200 L 50 50 0 0 P
+X VDD 13 1100 -300 200 L 50 50 0 0 P
+X N.C. 12 1100 -400 200 L 50 50 0 0 N
+X S3 11 1100 -500 200 L 50 50 0 0 P
+X D3 10 1100 -600 200 L 50 50 0 0 P
+X SEL3 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

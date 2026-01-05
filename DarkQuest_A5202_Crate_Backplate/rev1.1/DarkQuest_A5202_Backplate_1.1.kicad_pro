@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1016
         }
       },
       "diff_pair_dimensions": [
@@ -60,72 +60,384 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|42362270|99290000|0a7f62f3-f174-41bb-aa55-45a6b5aef3c9|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027270|93500000|d02d752c-ce79-4afe-bef2-59226d1f3b67|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|117088420|9e15cd32-69bc-4646-a54f-a956928d8d3b|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|111198420|fad1aa56-b92a-421a-a1f8-54c7f36c14eb|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|134888420|53a7c27a-24ff-4b21-813e-83cf9a681f56|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|129098420|f38304ae-7ef6-401f-ac50-cea9fd72793b|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|152688420|4e1f511d-d98a-48cf-9b22-ad0e78b98c25|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|146798420|940858fa-1be5-41f4-a209-36f15fc20532|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|170488420|2ba08a14-6e59-4e9d-8f9d-aba425217740|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|164698420|a6d08fd2-ee46-4e4b-b243-cc353f21699c|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|188288420|0a9d246e-a31b-4b6c-84a4-40928191a73b|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|182398420|48b3701c-714a-42d5-a09e-fe2f64865bb0|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|217788420|dbbc6166-966f-46ef-a4c4-30d11fd2e15c|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|211998420|05b871f9-a365-4ab7-a438-093fdc9f6804|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|235588420|5eb80723-6536-4558-ab53-0d3065d75ee6|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|229798420|2d43cd45-adf6-4d6f-a678-8ddf4f37f702|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|253388420|8ad85056-a742-44f8-bcda-3bf871925c1f|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|247598420|37bb90f9-597e-4e2e-bd76-7a48ad450da4|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|271188420|03de06db-b6bb-4984-8910-f7f71aef27c5|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|264898420|f8562c97-580d-4918-a379-cd74ee2cf770|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|288988420|641c935e-e9f9-4e5f-9e49-a7f08d30a905|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|282698420|3d6277dc-01ae-4d86-affd-e9e7b13eb8d8|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|306788420|b1ec1e74-105e-42d4-b024-cd6b324f9591|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|300498420|425d08d8-b3c0-4dc2-a121-72948143f183|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|324588420|992909c7-1ea0-4fb0-bbe7-60e02b4f5462|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|318298420|bde836fe-4cbe-4c95-b235-a92077e25db6|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|342388420|7d3dbd03-01d8-4228-8af6-f25ba752af88|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|336098420|a2ac6af0-ac51-492b-a900-cf73aa038933|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|360188420|9a056d86-f833-4a3b-9283-d0ad2e025f92|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|353898420|5503896c-67af-4e39-a2c4-797be206d3d2|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "footprint_type_mismatch|42362308|377988420|646fbafc-9a45-45eb-a50f-582b9aac9449|00000000-0000-0000-0000-000000000000",
-          "Type is actually Through hole"
+          "text_thickness|51027308|371798420|669ca2e0-f6de-4567-b8d5-93e71621c767|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_over_copper|34388931|150588420|f71e4379-d7ed-4b36-873a-145b402d9fd9|00000000-0000-0000-0000-000000000000",
-          "RJ45 Silkscreen"
+          "text_thickness|53467466|143030948|8208237f-9049-40d0-855d-a35278edc84a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|53644423|125414554|debe561f-abb8-42b6-8826-94d962d1cc43|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|53665000|109171983|c7925aca-caa8-448a-91f2-d8de024fde9c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|53692466|178765948|29aaf803-4193-46a0-b9c7-dde64a643b37|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|53800000|134801465|d43013ea-78d1-4bfb-b60d-476ed59bc03a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|53815000|117821983|e443442b-4f78-47eb-979e-caaa0acd8543|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54092466|152915948|aba1e630-6eb9-46e2-8b7e-39c8b1dcadaa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54115000|91781983|9273ac1e-7c1d-44db-8a03-074b2bf21544|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54167466|170140948|eb6ca6fd-bd6a-467d-aebd-642f687e5342|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54267466|161740948|e2d85d06-1bc2-4602-a076-d4c7093dfd15|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54765000|211596983|fabfc110-5b05-434a-9d9a-c08f89c9ba22|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|54790000|100521983|2cfc7396-d250-4a37-8f07-963d07178190|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55242500|228896983|cfa8c47e-c9d5-427e-8506-008873bb67c1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55475000|187216465|906bfb57-82c0-46a4-814d-f997127501fc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55642500|334896983|d651aeaa-96ea-43d5-8e17-cedefeb2ab2a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55842500|220096983|976ad91c-f449-4bc1-a5e8-b3b6b15b9000|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55842500|237696983|e5a7c679-652f-4334-9bee-f58c6125bed4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|55880000|353655000|8831eda3-743e-4c0f-9551-b491c13b146e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56042500|246296983|568da98c-4b51-4814-9d39-7c1801919e3a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56050000|371025000|1d3104ef-1182-4e32-ac75-267cf7ea9a7f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56050000|379625000|0fe7c414-eb5a-4817-b0de-64e75175e717|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56242500|344096983|a5e5ba35-5722-4474-ae48-7e62be650bd9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56301573|362515918|23ba78f4-7faf-4c4a-8d9c-86d0c59a243a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56442500|306496983|1c20bb2f-f8ae-443c-9795-146b92f7bd9d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56642500|263496983|bba14746-1e4f-4401-a0c6-087767c710dc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56642500|297896983|c6c693eb-371d-4e98-8ecc-a52c4f119a26|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56642500|315796983|f5644e07-f054-4290-a566-1d79018d95ff|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56642500|324296983|59465e13-5635-422f-9ff7-b831c85165bc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|56842500|280696983|09de438b-0816-4089-a73e-73cb027ad5e3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|57042500|272096983|e6d86dbc-8447-498e-9bd4-36e91e4b9009|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|57242500|254896983|37898a09-9524-4964-a568-5b149dd36c7c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|57242500|289296983|c317a2ad-5d05-450f-a105-600c9b48d937|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|62315000|89521983|55c8dd6a-cd0c-4b50-8ff7-33e22c279bb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63412500|379856983|265893bf-e7ea-4b6b-84a0-ba8662af1261|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63542500|211734483|99bc8523-03f2-490a-93d9-28c755b67d58|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63612500|371356983|f37697ca-ae25-4e56-a8d8-0f181bcc7848|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63642500|220096983|4250be58-d860-4c1b-aa11-4147c1a3d015|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63680000|353655000|bb50f5f0-93fb-4856-af7f-fcc79da46471|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63692500|334846983|44348efd-fcef-4fe2-8dd7-d9fa8dee7754|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63742500|228896983|29839c74-c9e9-4cef-8792-aeb468d55c2a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63815000|98521983|f0ca3942-a2fa-47d9-91eb-c070ffa2f92b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63842500|343296983|77155092-4cc0-4d29-a342-249ac4237b7e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|63901573|362515918|7cc62319-633c-4dc3-adfd-c5796dc075c6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64040000|107206983|4173aa48-d815-4097-9b9b-f7062309c193|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64042500|324296983|767904d9-0f20-4d6b-abe9-e5b56d16986a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64242500|306296983|621b6218-42c8-4a68-82e4-abba9f9a4b7f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64442500|246096983|1237651a-74ce-41cf-8019-9caa127c5179|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64442500|297596983|465c9914-6436-4443-a162-904807e664a7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64467466|178790948|bb043587-725e-4c61-9b53-196872d5f056|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64542500|237646983|24b87eec-fe5a-4441-8f60-1419cfd31edf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64542500|315796983|50c8705e-1c93-419b-8436-b0ad9bb32a62|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64642500|263296983|09260c35-f97f-4f65-957d-e5dd65404951|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64642500|271896983|ab8209e4-62ae-49cd-a467-b8eb1632eae1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64642500|289096983|68fd8fd1-ac08-4281-a35e-e2e6626d0c07|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64842500|280496983|7d4fdd49-177b-4851-bfc2-306fa32f2bb1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64867466|186473965|fde65095-500b-4119-b18a-9b4693c00f88|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64898970|116784959|cb05fd81-2a9e-4da0-8200-f26cb86d78d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64937466|126698965|4076f3e9-d3fe-415a-8973-19840d6fb271|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|64992466|170130948|d81bb4db-b48d-4ff2-bc5c-116cb67a6e3f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|65042466|152115948|d313131a-4d02-4157-9efb-26f4695da2af|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|65042500|254696983|e020d270-4e80-4f4e-b019-20d924f01784|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|65267466|161630948|054599a4-3aec-4e98-8ffd-0762d914d6ab|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|66192466|136470948|9751aa2c-cc22-4461-88ad-78828b56b427|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|104301580|e3e94240-2cf8-4679-b14d-012f7a6d3748|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|122101264|9355ea8d-9805-4780-9a10-c54dafdde43b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|139900948|a663c722-9671-4bd0-997b-6a98af6aa789|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|157700632|5d6521ae-54e7-481e-816f-45196131cbad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|175500316|edf64e9f-6d08-4dd0-8382-9d4150c2a353|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|193300000|0381e3ed-3f6d-4974-8843-9803946444a8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|222800000|47e46be6-920a-4f1c-82ad-c4833ab7c95f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|240600000|2a8a9c6d-2a35-47e2-bd55-8d397df185cf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|258400000|9edd09b6-3fab-4893-8f10-34f5ebc6baf7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|276200000|d5048f0a-7949-4935-9d0c-507f8419e5ba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|294000000|b1c32ec7-8e3b-4339-8157-122083d40a1f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|311800000|913219f4-81fc-4af2-94a7-7580e666161f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|329600000|34a647a4-1cc1-42e2-a835-efdc26133c34|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|347400000|72c3fbe6-c6f2-4114-abb1-8724231fa49a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|365200000|1e6a1542-06b4-40ac-bb6e-9ea80803ef7d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|87000000|383000000|9dcefd78-2ff8-4726-aec8-174254378f4d|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -170,8 +482,8 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
@@ -192,22 +504,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.152,
-        "min_connection": 0.2,
+        "min_clearance": 0.1,
+        "min_connection": 0.1016,
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.28,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -256,7 +568,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.118364
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -288,6 +601,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -522,6 +839,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -539,7 +857,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -550,9 +868,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "track_width": 0.118364,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -715,256 +1033,388 @@
       "Attenuator circuit"
     ],
     [
-      "b54fdb38-73a8-4b30-9de5-955059c6f7b6",
+      "e97b20a9-92b2-4185-94d3-e461221f4aad",
+      "CMOS Switched Attenuator1"
+    ],
+    [
+      "74aad41d-4825-4182-94ea-8d1b5332f95e",
+      "CMOS Switched Attenuator2"
+    ],
+    [
+      "a4dcb863-b5cb-4a97-a379-50302839a5d4",
+      "CMOS Switched Attenuator"
+    ],
+    [
+      "55144b35-0542-4fbd-9c0c-896ea034f9ce",
+      "CMOS Switched Attenuator3"
+    ],
+    [
+      "84eb237b-9d58-471d-b274-633732690f08",
+      "CMOS Switched Attenuator4"
+    ],
+    [
+      "406665ef-9c67-462b-bb90-0436027e55de",
+      "CMOS Switched Attenuator5"
+    ],
+    [
+      "b6a3ec7d-8d90-4530-8f63-b76039a0acf9",
+      "CMOS Switched Attenuator6"
+    ],
+    [
+      "2236e522-7ee5-45d0-af78-47470696fd2a",
+      "CMOS Switched Attenuator7"
+    ],
+    [
+      "286a9902-61b9-475a-8881-a56e44e53f66",
+      "CMOS Switched Attenuator8"
+    ],
+    [
+      "dc88165e-d2af-4ee0-8bb7-ee6d34fae7cb",
+      "CMOS Switched Attenuator9"
+    ],
+    [
+      "27f70109-1452-41e7-9d0b-4da80dbee1cf",
+      "CMOS Switched Attenuator10"
+    ],
+    [
+      "65c30e8d-3a0c-415a-929e-683c58c9efa9",
+      "CMOS Switched Attenuator11"
+    ],
+    [
+      "ef61532b-3071-44eb-a5d3-f0f72c100a2b",
+      "CMOS Switched Attenuator12"
+    ],
+    [
+      "cea55c4e-bd3c-4097-a77b-247af2d80fd8",
+      "CMOS Switched Attenuator13"
+    ],
+    [
+      "ec01f03d-a4b7-4409-a423-b421af10dec3",
+      "CMOS Switched Attenuator14"
+    ],
+    [
+      "7a21ad5a-0889-4c5e-bc9f-0a117006beee",
+      "CMOS Switched Attenuator15"
+    ],
+    [
+      "7396960c-37d5-4a9b-a3df-095f34427118",
+      "CMOS Switched Attenuator with Ground Switch1"
+    ],
+    [
+      "cea4c00f-749f-4d10-9786-72fdd9a864b5",
+      "CMOS Switched Attenuator with Ground Switch2"
+    ],
+    [
+      "2a1f3d0e-c174-432a-a652-b8ae53506a06",
+      "CMOS Switched Attenuator with Ground Switch3"
+    ],
+    [
+      "0b660ea4-7f42-4f93-8360-34e9831cbf28",
+      "CMOS Switched Attenuator with Ground Switch4"
+    ],
+    [
+      "f6c9fd47-1c79-4fd8-81cc-b005764b17d5",
+      "CMOS Switched Attenuator with Ground Switch5"
+    ],
+    [
+      "27aec5dd-af1f-4f3d-9c5f-0183ef8a9bb6",
+      "CMOS Switched Attenuator with Ground Switch6"
+    ],
+    [
+      "b9c79458-59b7-4f8a-902b-e3c5ce7c66c6",
       "Attenuator circuit1"
     ],
     [
-      "8b9acb9a-0cd3-4098-9057-0daa252413a8",
+      "733c50ee-511f-40e5-a770-e8978d81b931",
+      "CMOS Switched Attenuator with Ground Switch7"
+    ],
+    [
+      "97755be2-2c25-4eb4-9cf9-90fe0925e0b2",
+      "CMOS Switched Attenuator with Ground Switch8"
+    ],
+    [
+      "c61e64c2-e108-4923-8d04-0f514048be5c",
+      "CMOS Switched Attenuator with Ground Switch9"
+    ],
+    [
+      "7c3f0899-fecf-49eb-ba85-e3cfffc798c5",
+      "CMOS Switched Attenuator with Ground Switch10"
+    ],
+    [
+      "854fe912-7498-4dce-a220-758aeb9c94a1",
+      "CMOS Switched Attenuator with Ground Switch11"
+    ],
+    [
+      "8f49dbf7-0606-427b-8a06-18d88a5584e0",
+      "CMOS Switched Attenuator with Ground Switch12"
+    ],
+    [
+      "6cb47254-21c9-4472-b7ce-7180776a7c49",
+      "CMOS Switched Attenuator with Ground Switch13"
+    ],
+    [
+      "9eef22df-89c7-4f10-b4c6-810ae92ff0c1",
+      "CMOS Switched Attenuator with Ground Switch14"
+    ],
+    [
+      "5f983459-8193-4747-b0f7-dcf374d9a3d9",
+      "CMOS Switched Attenuator with Ground Switch15"
+    ],
+    [
+      "95467359-7288-43ee-a43e-c9fa2746978d",
       "Attenuator circuit2"
     ],
     [
-      "3e8400d5-260a-4a64-a98d-bf8fcf0b6352",
+      "f099bef4-f7f0-4d8c-82f2-c7173f69635a",
       "Attenuator circuit3"
     ],
     [
-      "3d771a9b-c2ae-4f7c-a194-00314d1f26b1",
+      "a4a52d4c-53e6-47cc-a2c0-532509b9c6bd",
       "Attenuator circuit4"
     ],
     [
-      "6e5beaff-f238-40c1-9a23-b075cf3b42e4",
+      "8171e5f3-dbb8-430b-a978-35548f474776",
       "Attenuator circuit5"
     ],
     [
-      "e24bcc40-d5ba-4751-847f-4fdf3e67ad40",
+      "22e2988e-4fc8-4ed8-92bd-2df6d7d6e7dc",
       "Attenuator circuit6"
     ],
     [
-      "a4e5fe74-01fb-4677-801e-e221e1190f77",
+      "1a827278-37fd-402e-a9b2-fb8bb0d37751",
       "Attenuator circuit7"
     ],
     [
-      "b5f07685-d673-4286-8b1a-ef4ef7607ecb",
+      "8ec66dfa-fd2b-4a49-aafb-fe7ebff2299b",
       "Attenuator circuit8"
     ],
     [
-      "a53903d9-1faf-48b8-b9f3-bb0611e19fa8",
+      "a0cb063b-80c8-4684-b8bc-dfdb1682f3c3",
       "Attenuator circuit9"
     ],
     [
-      "bd388dbf-9850-4c5c-8802-7fe17b00d240",
+      "0a014c96-bfcf-4197-ad2d-c09193fef406",
       "Attenuator circuit10"
     ],
     [
-      "77f2ff33-53a3-4826-b622-08e5e0481656",
+      "daf40bb4-45df-4558-91b4-c1eec4c45834",
       "Attenuator circuit11"
     ],
     [
-      "5cede59c-a399-44b5-a98b-d5c9e09ef081",
+      "2dc0308f-3100-48a0-b4e3-59401b7a083f",
       "Attenuator circuit12"
     ],
     [
-      "a60b1ad4-ce3f-432e-894f-3f53c5867e55",
+      "d21354aa-c5cd-4975-a470-f3b03866f281",
       "Attenuator circuit13"
     ],
     [
-      "bfc259c5-fbf3-4758-a6d2-bc6568663d71",
+      "4db2649f-89ad-4d38-afda-77f225404497",
       "Attenuator circuit14"
     ],
     [
-      "8719b97e-1395-4c96-bfaf-f5d9e54fd5fd",
+      "7c1f6f71-fcc7-47a3-a79f-f03ba4737125",
       "Attenuator circuit15"
     ],
     [
-      "ba3000bb-4d98-4ca3-a8a4-51275f142ad3",
+      "d160fa29-ba1e-4129-a04e-0552b5a8a314",
       "Attenuator circuit16"
     ],
     [
-      "352681f9-5fc4-4a12-a8ce-10303f7da4d7",
+      "23facc82-5279-446b-9292-1396258807a7",
       "Attenuator circuit17"
     ],
     [
-      "e1f35295-51d9-4d84-91a3-fa6b383886a8",
+      "1d3531bc-f0cd-4e78-839f-67ba1ad7c38b",
       "Attenuator circuit18"
     ],
     [
-      "78214b6d-e1a7-4663-abd5-72fe10138b3d",
+      "d36c5749-2de0-4cc3-a3a0-226c28907441",
       "Attenuator circuit19"
     ],
     [
-      "9dc56be5-8e59-4332-aadd-083d64fd66cc",
+      "ef723364-0bd4-4d05-ab20-8803f8cd4343",
       "Attenuator circuit20"
     ],
     [
-      "6edec167-b7e1-425e-aff4-7563782e48a1",
+      "f716666b-1b5c-463e-a6b7-7566211d2145",
       "Attenuator circuit21"
     ],
     [
-      "18af395b-64e5-4933-8c07-bcbc4cc40721",
+      "650196b2-6716-4c67-8903-91299d7e5123",
       "Attenuator circuit22"
     ],
     [
-      "f7f28f9a-6ee3-4232-8536-d5b71cb68349",
+      "263f5dd7-dceb-4c73-9d12-ee0f01244fc8",
       "Attenuator circuit23"
     ],
     [
-      "b085f296-b765-4da1-abb6-2db921d7a73b",
+      "44af352f-dfba-4ef7-859b-c829fc19660a",
       "Attenuator circuit24"
     ],
     [
-      "59e03cb2-1eb9-4544-b314-bc594e0825cf",
+      "b8244590-5eec-426e-89d1-61647f8fbdbb",
       "Attenuator circuit25"
     ],
     [
-      "c616b1c8-21c7-4dc1-b8e1-5ea0d8ffdb8f",
+      "0d4c72ea-c5a9-455f-b96d-2aa213762a0d",
       "Attenuator circuit26"
     ],
     [
-      "ddac8f50-a25b-463c-83b2-12074591ed24",
+      "78994ed3-9858-45f8-9432-51f9826eb784",
       "Attenuator circuit27"
     ],
     [
-      "413cdf81-116a-4c36-ac53-d6a957bb40b1",
+      "304026e1-e463-4dcd-aed1-470b2faff737",
       "Attenuator circuit28"
     ],
     [
-      "d07e7a1b-3de6-4afe-b967-1e49c6c6afd4",
+      "5a7d467f-e173-4b3b-973d-174f80de71d5",
       "Attenuator circuit29"
     ],
     [
-      "ecd18564-f7dd-4216-8956-b496490fdf14",
+      "275f2ee5-e440-4be4-bbec-4641a21a98a3",
       "Attenuator circuit30"
     ],
     [
-      "ccd6422c-971b-4ef8-933a-409f5663c831",
+      "801e425f-37e7-47d7-bc5d-2a5b46852df9",
       "Attenuator circuit31"
     ],
     [
-      "330818f0-c1d6-4e82-94f6-6998276f156f",
+      "461c470b-0949-432c-b773-6092ba9efabb",
       "Attenuator circuit32"
     ],
     [
-      "96969179-bf88-42d7-9132-b941535b148f",
+      "4bcc2530-78da-4059-b61d-bce7be658771",
+      "CMOS Connector Block"
+    ],
+    [
+      "0afc32a0-cc11-4170-a866-7c31409bf44a",
       "Attenuator circuit33"
     ],
     [
-      "b80f54ff-9bf5-47d3-92e8-036cd93b66c8",
+      "e93d09f2-d25b-42b9-8425-ebb1db61d668",
       "Attenuator circuit34"
     ],
     [
-      "709b3516-7fa8-45ba-80d8-a43cc20fbe93",
+      "b5325d1e-2fb1-40c1-9d61-e815eff4da92",
       "Attenuator circuit35"
     ],
     [
-      "c4cc60af-a99d-4306-8616-45e9f0fe4317",
+      "83b4bc27-8b34-43c3-b99d-c0f183b3f4ee",
       "Attenuator circuit36"
     ],
     [
-      "2f45f77d-14ee-41fb-9b5b-307138f19359",
+      "79c2099c-4d00-4b99-98df-810a039cee58",
       "Attenuator circuit37"
     ],
     [
-      "30310c71-9452-43ff-80a2-a9e7b2b78c6e",
+      "ff395a69-39b1-4e46-96fb-22464d265b6e",
       "Attenuator circuit38"
     ],
     [
-      "62550c74-be3a-419e-af68-e9f66781d7f0",
+      "1cf7c14a-95f1-40da-8030-54ad0f5cbfb5",
       "Attenuator circuit39"
     ],
     [
-      "acab9c43-73e2-41a8-bd18-fbb8ff312143",
+      "d944d2bd-bfa3-4291-8aae-c80a03223970",
       "Attenuator circuit40"
     ],
     [
-      "a6c25f49-133a-4f46-b60d-e8920ee7c8c9",
+      "a2100ce6-63b0-44b2-92fb-47e80b8dd1a8",
       "Attenuator circuit41"
     ],
     [
-      "7b5b54f6-74fe-48b1-b897-567926b6fc2a",
+      "e1193267-5089-43b5-a50a-c02861bfd334",
       "Attenuator circuit42"
     ],
     [
-      "45092a44-a6d9-4133-91c5-027d7ef5018c",
+      "8f072a4b-989e-4a42-a492-37187f325186",
       "Attenuator circuit43"
     ],
     [
-      "7ccebeda-9c7e-4534-8a5e-9cb2283c6ad0",
+      "98125e25-86c4-413e-9985-d4e6ebc9981b",
       "Attenuator circuit44"
     ],
     [
-      "92f5ae15-35c8-43ec-940c-88b39753fe14",
+      "7f8aba11-0818-4839-8c58-329e7041521b",
       "Attenuator circuit45"
     ],
     [
-      "776007cc-249e-4f61-ba42-418c2bdb8c89",
+      "e4307768-34df-4a1d-8f1b-cc5896eeb1c5",
       "Attenuator circuit46"
     ],
     [
-      "554d1510-30b1-4d69-9930-202cb076cd9f",
+      "1a12758b-145a-4f72-951c-ad213a77298d",
       "Attenuator circuit47"
     ],
     [
-      "e01b2c7b-6f41-4f32-b50d-9748c83845d6",
+      "c3f48992-7ee5-4b93-9cb4-8623298ef893",
       "Attenuator circuit48"
     ],
     [
-      "3b6b13f8-6431-453d-bda1-7d8f18f9155a",
+      "57fb0490-aa6f-4ea7-89a7-d7bcfe36147b",
       "Attenuator circuit49"
     ],
     [
-      "29b6a4f1-56e3-4888-a5f6-efbcd5b8f420",
+      "eed0b6c6-bf2a-4fcf-8a60-a077542b19a3",
       "Attenuator circuit50"
     ],
     [
-      "46108d3d-c77e-4977-88c4-a8438bcd2cdc",
+      "a97c4321-5711-4c1b-844a-bbba874d0efb",
       "Attenuator circuit51"
     ],
     [
-      "98d5d96e-387b-473f-8f5d-0d526e69dffe",
+      "9b097eae-2110-44de-93a0-2b347795e367",
       "Attenuator circuit52"
     ],
     [
-      "0bfc75c6-193b-4840-871c-9e233955385b",
+      "d3f2631d-930f-409f-abcc-c4c7ad67bfbb",
       "Attenuator circuit53"
     ],
     [
-      "4b444c1c-bc29-41d5-9c19-db20c66c3d37",
+      "bcafe931-3f59-4124-8511-c0346276d5b5",
       "Attenuator circuit54"
     ],
     [
-      "cdc2bf39-e321-4d7f-af39-5583ba0b4da0",
+      "a4d18875-5199-4f1c-8f3a-52d3ccf0f08e",
       "Attenuator circuit55"
     ],
     [
-      "49081432-849b-4c87-9639-b1827635cbaa",
+      "ab5b5e9c-b8b5-4b6d-846d-561e258983e1",
       "Attenuator circuit56"
     ],
     [
-      "211d4bd3-73d0-48eb-a509-9c8b57efa2da",
+      "d3cbcc2a-63db-4d96-ab6d-495861dcd4d7",
       "Attenuator circuit57"
     ],
     [
-      "2db1174c-641d-4bba-9d9b-33d53e820a5b",
+      "6bd74da9-6493-432e-9bb8-c4824859a639",
       "Attenuator circuit58"
     ],
     [
-      "2a358f63-9c5c-496e-833f-7f18e8d1306f",
+      "6972465a-6737-450f-b62c-310af3bc9c8f",
       "Attenuator circuit59"
     ],
     [
-      "65972746-293c-4095-a389-8ed639ff8e6b",
+      "1036c571-8a51-4155-a058-b3b5a4ec1bb9",
       "Attenuator circuit60"
     ],
     [
-      "fc695749-4a35-4a6a-b0d2-b7236891cf28",
+      "f623c886-bd60-4b64-8d43-1551ab416d48",
       "Attenuator circuit61"
     ],
     [
-      "e7ca8df5-7351-4dca-8021-e33972094a5e",
+      "6b8f8cb2-c9f6-497a-92ef-c05176320dee",
       "Attenuator circuit62"
     ],
     [
-      "763ace6c-daed-45cf-bd83-8185c0619a46",
+      "d210a283-57ff-4446-83b0-beb56e3fa75f",
       "Attenuator circuit63"
+    ],
+    [
+      "061ae2aa-aa9f-441c-b4c9-282835f67048",
+      "CMOS Switched Attenuator with Ground Switch"
     ]
   ],
   "text_variables": {}

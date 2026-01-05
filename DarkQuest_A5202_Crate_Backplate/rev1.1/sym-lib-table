@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMUX7612")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/TMUX7612PWR/TMUX7612PWR.kicad_sym")(options "")(descr ""))
+)

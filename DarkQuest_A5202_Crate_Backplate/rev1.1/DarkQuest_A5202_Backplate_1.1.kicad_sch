@@ -13,6 +13,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 24.13 50.8)
+		(size 25.4 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bcc2530-78da-4059-b61d-bce7be658771")
+		(property "Sheetname" "CMOS Connector Block"
+			(at 24.13 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CMOS_Switch_Attenuator_Connector_block.kicad_sch"
+			(at 24.13 64.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DarkQuest_A5202_Backplate_1.1"
+				(path "/b3c31c21-f5df-48a1-b060-163ba8900d77"
+					(page "67")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 16.51)
 		(size 26.67 19.05)
 		(exclude_from_sim no)

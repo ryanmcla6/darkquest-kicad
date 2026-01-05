@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX7612PWR
+D  Dual supply range: +/-4.5V to +/-25V  Single supply range: 4.5V to 50V  Asymmetric dual supply support (For example: VDD = 37.5V, VSS = -12.5V)  1.8V logic compatible  Precision performance:  Low on-resistance: 1.1 (typical)  Low capacitance: 27pF (typical)  Ultra-low on-resistance flatness: 0.0003 (typical)  High current support: 470mA (maximum)  Low on-leakage current: 3.7pA (typical), 0.3nA (maximum)  Low off-leakage current: 30pA (typical), 0.15nA (maximum)  Ultra-low charge in
+K
+F https://www.ti.com/lit/gpn/tmux7612
+$ENDCMP
+#
+#End Doc Library
