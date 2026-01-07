@@ -3406,6 +3406,53 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 482.6 20.32)
+		(end 535.94 33.02)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cca09586-c18e-4cb5-b4e9-1782fd956796)
+	)
+	(text "!"
+		(exclude_from_sim no)
+		(at 488.188 27.432 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 221 133 0 1)
+			)
+		)
+		(uuid "34f89923-15ff-497f-a766-6d24e2126e00")
+	)
+	(text "HSEC8-170-01-X-DV-A footprint has \nbeen updated to reflect the pinout \nnumbering used by CAEN."
+		(exclude_from_sim no)
+		(at 494.284 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 221 133 0 1)
+			)
+			(justify left)
+		)
+		(uuid "83d457d9-e2be-4fcf-ac39-bd877488099a")
+	)
+	(text "△"
+		(exclude_from_sim no)
+		(at 488.188 25.908 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(color 221 133 0 1)
+			)
+		)
+		(uuid "be3787e5-36bd-4022-b2f5-1c72150d4176")
+	)
 	(junction
 		(at 199.39 49.53)
 		(diameter 0)
@@ -9003,6 +9050,7 @@
 	(symbol
 		(lib_id "HSEC8-170-01-X-DV-A:HSEC8-170-01-X-DV-A")
 		(at 515.62 170.18 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9010,7 +9058,7 @@
 		(dnp no)
 		(uuid "075345c3-26c7-41b4-91fe-c3080b706425")
 		(property "Reference" "J2"
-			(at 517.906 123.952 90)
+			(at 513.334 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9067,7 @@
 			)
 		)
 		(property "Value" "HSEC8-170-01-X-DV-A"
-			(at 514.858 123.698 90)
+			(at 516.382 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HSEC8_170_01_S_DV_A_K:SAMTEC_HSEC8-170-01-X-DV-A"
+		(property "Footprint" "A5202_Backplate:SAMTEC_HSEC8-170-01-X-DV-A-CAEN-PINOUT"
 			(at 515.62 170.18 0)
 			(effects
 				(font
@@ -9818,6 +9866,7 @@
 	(symbol
 		(lib_id "HSEC8-170-01-X-DV-A:HSEC8-170-01-X-DV-A")
 		(at 515.62 77.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9825,7 +9874,7 @@
 		(dnp no)
 		(uuid "5359e4a4-843f-4a83-9ee9-c8301bc69fd1")
 		(property "Reference" "J2"
-			(at 517.144 51.054 90)
+			(at 514.096 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9883,7 @@
 			)
 		)
 		(property "Value" "HSEC8-170-01-X-DV-A"
-			(at 513.842 66.548 90)
+			(at 517.398 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HSEC8_170_01_S_DV_A_K:SAMTEC_HSEC8-170-01-X-DV-A"
+		(property "Footprint" "A5202_Backplate:SAMTEC_HSEC8-170-01-X-DV-A-CAEN-PINOUT"
 			(at 515.62 77.47 0)
 			(effects
 				(font

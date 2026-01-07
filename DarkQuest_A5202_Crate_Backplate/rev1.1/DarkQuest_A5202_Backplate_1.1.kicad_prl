@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 2,
     "net_color_mode": 1,
     "opacity": {
       "images": 1.0,
@@ -22,10 +22,10 @@
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
-      "pads": true,
+      "pads": false,
       "text": true,
-      "tracks": true,
-      "vias": true,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -50,8 +50,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd5f5_dff755df",
-    "zone_display_mode": 1
+    "visible_layers": "00000000_00000000_00000000_00000084",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
