@@ -16561,7 +16561,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cf260f20-b288-4486-a567-3d595443a516")
-		(property "Reference" "U32"
+		(property "Reference" "U33"
 			(at 435.2133 238.76 0)
 			(effects
 				(font
@@ -16633,7 +16633,7 @@
 		(instances
 			(project ""
 				(path "/b3c31c21-f5df-48a1-b060-163ba8900d77/4bcc2530-78da-4059-b61d-bce7be658771"
-					(reference "U32")
+					(reference "U33")
 					(unit 1)
 				)
 			)

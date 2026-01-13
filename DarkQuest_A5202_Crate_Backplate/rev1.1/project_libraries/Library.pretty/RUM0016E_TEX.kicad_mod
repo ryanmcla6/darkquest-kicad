@@ -1087,18 +1087,6 @@
 		)
 	)
 	(fp_text user "*"
-		(at -2.9845 -1.3 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ffe792ca-6b95-4f69-a08a-b7be9d058eb6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
 		(at -1.5367 -1.3 0)
 		(layer "F.Fab")
 		(uuid "3c816086-8b1a-4497-91e6-f8bc68d90c86")
@@ -1233,6 +1221,7 @@
 		(at 0 0)
 		(size 1.9558 1.9558)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
 		(uuid "011564b6-4c1e-4bfe-877e-855345126531")
 	)
 	(embedded_fonts no)

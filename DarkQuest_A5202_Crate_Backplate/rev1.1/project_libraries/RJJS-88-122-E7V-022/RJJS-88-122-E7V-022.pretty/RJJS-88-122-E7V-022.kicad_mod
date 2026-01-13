@@ -54,17 +54,66 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_rect
-		(start -8 8.35)
+	(attr through_hole)
+	(fp_line
+		(start -8 -8.35)
 		(end 8 -8.35)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "e7b1dbe3-4f8d-407e-93cc-ebd348010445")
+		(uuid "4dc57c40-6f17-40e5-af01-eae44ebaffc9")
+	)
+	(fp_line
+		(start -8 -2.5)
+		(end -8 -8.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd7a1c30-db07-407b-8465-5011da2a60b4")
+	)
+	(fp_line
+		(start -8 8.35)
+		(end -8 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99064bae-2252-4044-808d-1981fb718148")
+	)
+	(fp_line
+		(start 8 -8.35)
+		(end 8 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bad222b7-f6c1-430a-b06b-e93ed7429ed2")
+	)
+	(fp_line
+		(start 8 1)
+		(end 8 8.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6639407f-8de6-4736-9bc0-122d127371e1")
+	)
+	(fp_line
+		(start 8 8.35)
+		(end -8 8.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d58316de-47b8-4c42-b241-f93fe86db61b")
 	)
 	(fp_rect
 		(start -8 8.35)
@@ -184,6 +233,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "60287a38-1444-4feb-bbfb-cd9d2de35c4d")
 	)
 	(pad "SH" thru_hole circle
@@ -192,6 +242,7 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "7b2c7a4d-036f-490e-8e75-eb4e99d81f1c")
 	)
 	(embedded_fonts no)
