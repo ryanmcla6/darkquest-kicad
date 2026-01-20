@@ -1,0 +1,15 @@
+### Footprint positions - created on 2026-01-20T16:12:02-0500 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                      PosX       PosY       Rot  Side
+J2        HSEC8-170-01-X-DV-A   SAMTEC_HSEC8-170-01-X-DV-A-CAEN-PINOUT    60.1601  -143.2584  -90.0000  top
+J4        HSEC8-170-01-X-DV-A   SAMTEC_HSEC8-170-01-X-DV-A-CAEN-PINOUT    95.7201  -143.2584  -90.0000  top
+J5        Conn_01x02_Pin        CONN_691321300002_WRE                     93.6100   -96.3700    0.0000  top
+J6        Conn_01x02_Pin        CONN_691321300002_WRE                     93.6300  -104.4559    0.0000  top
+J7        USB-ISS_Connector     USB-ISS                                   96.9700  -364.6600   90.0000  top
+REF**     NPTH_A5202_Backplate  NPTH_A5202_Backplate                      47.3095  -203.7838    0.0000  top
+REF**     NPTH_A5202_Backplate  NPTH_A5202_Backplate                      82.8713  -203.7838    0.0000  top
+REF**     NPTH_A5202_Backplate  NPTH_A5202_Backplate                      82.8831   -82.7528    0.0000  top
+REF**     NPTH_A5202_Backplate  NPTH_A5202_Backplate                      47.3112   -82.7528    0.0000  top
+## End
