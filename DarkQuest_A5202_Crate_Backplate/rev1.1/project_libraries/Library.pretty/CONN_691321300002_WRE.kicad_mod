@@ -226,4 +226,15 @@
 		(uuid "e76fc848-884f-4f43-800c-b851346b1828")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/project_libraries/Library.pretty/691321300002 (rev1).stp"
+		(offset
+			(xyz 2 0.75 4.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )

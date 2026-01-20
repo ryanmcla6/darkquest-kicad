@@ -246,4 +246,15 @@
 		(uuid "7b2c7a4d-036f-490e-8e75-eb4e99d81f1c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/project_libraries/RJJS-88-122-E7V-022/3257-0005-0x.stp"
+		(offset
+			(xyz -6.25 -0.5 16.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )

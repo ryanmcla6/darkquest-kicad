@@ -1,4 +1,4 @@
-26456674056000907
+26465519717776806
 A5202_Backplate
 CONN_691321300002_WRE
 
@@ -6,6 +6,20 @@ CONN_691321300002_WRE
 0
 2
 2
+A5202_Backplate
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+A5202_Backplate
+NPTH_A5202_Backplate
+
+
+0
+0
+0
 A5202_Backplate
 Nidec_DPDT_CS422YTA
 
@@ -42,6 +56,20 @@ TMUX7612RUMR
 17
 17
 A5202_Backplate
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+A5202_Backplate
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+A5202_Backplate
 SAMTEC_HSEC8-170-01-X-DV-A
 
 
@@ -62,6 +90,13 @@ SOP65P490X110-8N
 0
 8
 8
+A5202_Backplate
+USB-ISS
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

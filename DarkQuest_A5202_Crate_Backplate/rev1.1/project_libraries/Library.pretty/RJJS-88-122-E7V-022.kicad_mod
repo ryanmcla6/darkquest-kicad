@@ -92,14 +92,14 @@
 		(at -5.715 2.2)
 		(size 3.65 3.65)
 		(drill 3.45)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "76a1be74-d0d0-4901-9f6e-def5f8c9e647")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.715 2.2)
 		(size 3.65 3.65)
 		(drill 3.45)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9cefe483-ca63-4843-8b61-21807e1cd1dc")
 	)
 	(pad "1" thru_hole circle
@@ -183,4 +183,15 @@
 		(uuid "7b2c7a4d-036f-490e-8e75-eb4e99d81f1c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/project_libraries/RJJS-88-122-E7V-022/3257-0005-0x.stp"
+		(offset
+			(xyz -6.25 -0.5 16.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
